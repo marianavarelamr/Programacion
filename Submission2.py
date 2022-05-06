@@ -4,7 +4,7 @@ from PIL import Image
 import sqlite3
 
 st.title('Final Project')
-image = Image.open('Logo-KDT-JU.webp')
+image = Image.open('icon.png')
 st.image(image)
 
 con = sqlite3.connect('excel_database.db') # Connect
